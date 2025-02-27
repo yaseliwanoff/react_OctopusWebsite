@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "eurostile-extended";
+  src: url("../eurostile-extended/ttf/EurostileExtendedBlack.ttf") format("truetype"),
+       url("../eurostile-extended/woff2/EurostileExtendedBlack.woff2") format("font/woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../Montserrat/ttf/Montserrat-Black.ttf") format("truetype"),
+  url("../Montserrat/woff2/Montserrat-Black.woff2") format("woff2");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../Montserrat/ttf/Montserrat-Bold.ttf") format("truetype"),
+  url("../Montserrat/woff2/Montserrat-Bold.woff2") format("woff2");
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "ZenDots";
+  src: url("../Zen_Dots/ttf/ZenDots-Regular.ttf") format("truetype"),
+  url("../Zen_Dots/woff2/ZenDots-Regular.woff2") format("woff2");
+  font-weight: 900;
+}
