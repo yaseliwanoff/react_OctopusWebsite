@@ -3,18 +3,42 @@ import StaticButtons from "@components/Buttons/StaticButtons";
 import JohnPeople from "@assets/images/png/john.png";
 import MarcusPeople from "@assets/images/png/marcus.png";
 import VioletPeople from "@assets/images/png/violet.png";
+import Star from "@assets/images/svg/star.svg"
 
 const Hero = () => {
   return (
-    <section className="overflow-x-hidden relative">
-      <div className="absolute left-0 bottom-0 mb-10 ml-10 z-0">
-        <img src={JohnPeople} alt="John" className="w-[119px]" />
-      </div>
-      <div className="absolute right-0 bottom-0 mb-10 mr-10 z-0">
-        <img src={MarcusPeople} alt="Marcus" className="w-52 h-auto" />
-      </div>
-      <div className="absolute right-0 top-0 mt-10 mr-10 z-0">
-        <img src={VioletPeople} alt="Violet" className="w-36" />
+    <section className="relative pt-20">
+      <div className="hidden lg:flex">
+        <div className="absolute left-[10%] bottom-0 top-[90%] mb-10 ml-10 z-0 flex flex-col items-center">
+          <div className="flex items-start">
+            <img src={Star} alt="star" className="absolute z-10 -top-[30px] -left-[10px]" />
+            <img src={JohnPeople} alt="John" className="w-[119px] relative" />
+          </div>
+          <div className="mt-1 flex flex-col items-center text-center">
+            <span className="font-[IndieFlower] text-[29px] text-[#7C7C7C] leading-tight">John O Brian</span>
+            <span className="text-[17px] text-[#7C7C7C] font-[RobotoCondensed]">Brand Designer</span>
+          </div>
+        </div>
+        <div className="absolute right-0 flex flex-col items-center bottom-0 top-[115%] mb-10 mr-[17%] z-0">
+          <div className="flex items-start">
+            <img src={Star} alt="star" className="absolute z-10 -top-[30px] -left-[10px]" />
+            <img src={MarcusPeople} alt="Marcus" className="relative" />
+          </div>
+          <div className="mt-1 flex flex-col items-center text-center">
+            <span className="font-[IndieFlower] text-[29px] text-[#7C7C7C] leading-tight">Marucus Linux</span>
+            <span className="text-[17px] text-[#7C7C7C] font-[RobotoCondensed]">Web Developer</span>
+          </div>
+        </div>
+        <div className="absolute right-0 flex flex-col items-center top-[10%] mt-10 mr-[9%] z-0">
+          <div className="flex items-start">
+            <img src={Star} alt="star" className="absolute z-10 -top-[30px] -left-[10px]" />
+            <img src={VioletPeople} alt="Violet" className="relative" />
+          </div>
+          <div className="mt-1 flex flex-col items-center text-center">
+            <span className="font-[IndieFlower] text-[29px] text-[#ffffff] leading-tight">Violet Harrison</span>
+            <span className="text-[17px] text-[#ffffff] font-[RobotoCondensed]">UI & UX Designer</span>
+          </div>
+        </div>
       </div>
       <div className="z-10 relative container flex flex-col pt-[100px] justify-center items-center">
         <div className="flex gap-2 items-center">

@@ -6,3 +6,7 @@
   background-color: #FFCF4E;
   color: #785f1a;
 }
+
+* {
+  scrollbar-width: none;
+}

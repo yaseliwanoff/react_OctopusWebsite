@@ -3,7 +3,7 @@ import Menu from "@assets/images/svg/menu.svg"
 
 export default function Header() {
   return (
-    <header className="pl-0 md:pl-6 bg-black z-50">
+    <header className="fixed w-full pl-0 md:pl-6 bg-black z-50">
       <div className="flex justify-between items-center">
         <div>
           <img width={193} height={47} src={Logo} alt="logo" />

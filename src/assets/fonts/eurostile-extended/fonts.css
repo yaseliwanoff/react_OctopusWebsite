@@ -26,3 +26,17 @@
   url("../Zen_Dots/woff2/ZenDots-Regular.woff2") format("woff2");
   font-weight: 900;
 }
+
+@font-face {
+  font-family: "IndieFlower";
+  src: url("../Indie_Flower/ttf/IndieFlower-Regular.ttf") format("truetype"),
+  url("../Indie_Flower/woff2/IndieFlower-Regular.woff2") format("woff2");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "RobotoCondensed";
+  src: url("../Roboto/ttf/Roboto_SemiCondensed-Light.ttf") format("truetype"),
+  url("../Roboto/woff2/Roboto_SemiCondensed-Light.woff2") format("woff2");
+  font-weight: 400;
+}
