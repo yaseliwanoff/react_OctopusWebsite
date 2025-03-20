@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "eurostile-extended";
+  src: url("../fonts/eurostile-extended/ttf/EurostileExtendedBlack.ttf") format("truetype"),
+       url("../fonts/eurostile-extended/woff2/EurostileExtendedBlack.woff2") format("font/woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat/ttf/Montserrat-Black.ttf") format("truetype"),
+  url("../fonts/Montserrat/woff2/Montserrat-Black.woff2") format("woff2");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat/ttf/Montserrat-Bold.ttf") format("truetype"),
+  url("../fonts/Montserrat/woff2/Montserrat-Bold.woff2") format("woff2");
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "ZenDots";
+  src: url("../fonts/Zen_Dots/ttf/ZenDots-Regular.ttf") format("truetype"),
+  url("../fonts/Zen_Dots/woff2/ZenDots-Regular.woff2") format("woff2");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "IndieFlower";
+  src: url("../fonts/Indie_Flower/ttf/IndieFlower-Regular.ttf") format("truetype"),
+  url("../fonts/Indie_Flower/woff2/IndieFlower-Regular.woff2") format("woff2");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "RobotoCondensed";
+  src: url("../fonts/Roboto/ttf/Roboto_SemiCondensed-Light.ttf") format("truetype"),
+  url("../fonts/Roboto/woff2/Roboto_SemiCondensed-Light.woff2") format("woff2");
+  font-weight: 400;
+}

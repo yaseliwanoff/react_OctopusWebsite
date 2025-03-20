@@ -1,0 +1,10 @@
+.circle {
+  position: fixed;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #ffd04e;
+  z-index: -1;
+  pointer-events: none; /* Чтобы круг не мешал взаимодействию с текстом */
+  transform: translate(-50%, -50%); /* Центрирование круга под курсором */
+}

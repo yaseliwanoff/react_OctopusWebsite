@@ -34,23 +34,23 @@ const Works = () => {
   }, []);
 
   return (
-    <section className="mt-[35%]">
+    <section className="mt-[20%] lg:mt-[35%] overflow-x-hidden">
       <div className="perspective" ref={firstContainerRef}>
         <div className="inline-flex gap-4 items-center">
-          <img className="transform -skew-x-12 perspective-image" width={406} height={254} src={WorkImage1} alt="work" />
-          <img className="transform -skew-x-12 perspective-image" width={406} height={254} src={WorkImage2} alt="work" />
-          <img className="transform -skew-x-12 perspective-image" width={406} height={254} src={WorkImage3} alt="work" />
-          <img className="transform -skew-x-12 perspective-image" width={406} height={254} src={WorkImage4} alt="work" />
-          <img className="transform -skew-x-12 perspective-image" width={406} height={254} src={WorkImage5} alt="work" />
+          <img className="transform -skew-x-[20deg] perspective-image" width={406} height={254} src={WorkImage1} alt="work" />
+          <img className="transform -skew-x-[20deg] perspective-image" width={406} height={254} src={WorkImage2} alt="work" />
+          <img className="transform -skew-x-[20deg] perspective-image" width={406} height={254} src={WorkImage3} alt="work" />
+          <img className="transform -skew-x-[20deg] perspective-image" width={406} height={254} src={WorkImage4} alt="work" />
+          <img className="transform -skew-x-[20deg] perspective-image" width={406} height={254} src={WorkImage5} alt="work" />
         </div>
       </div>
       <div className="mt-3 perspective" ref={secondContainerRef}>
         <div className="inline-flex gap-4 items-center">
-          <img className="transform -skew-x-12 perspective-image" width={406} height={254} src={WorkImage6} alt="work" />
-          <img className="transform -skew-x-12 perspective-image" width={406} height={254} src={WorkImage7} alt="work" />
-          <img className="transform -skew-x-12 perspective-image" width={406} height={254} src={WorkImage8} alt="work" />
-          <img className="transform -skew-x-12 perspective-image" width={406} height={254} src={WorkImage9} alt="work" />
-          <img className="transform -skew-x-12 perspective-image" width={406} height={254} src={WorkImage6} alt="work" />
+          <img className="transform -skew-x-[20deg] perspective-image" width={406} height={254} src={WorkImage6} alt="work" />
+          <img className="transform -skew-x-[20deg] perspective-image" width={406} height={254} src={WorkImage7} alt="work" />
+          <img className="transform -skew-x-[20deg] perspective-image" width={406} height={254} src={WorkImage8} alt="work" />
+          <img className="transform -skew-x-[20deg] perspective-image" width={406} height={254} src={WorkImage9} alt="work" />
+          <img className="transform -skew-x-[20deg] perspective-image" width={406} height={254} src={WorkImage6} alt="work" />
         </div>
       </div>
     </section>
